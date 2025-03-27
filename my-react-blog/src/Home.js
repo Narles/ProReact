@@ -15,7 +15,7 @@ const Home = () => {
         <div className="homeContent">
             <img src={logo} className="App-logo" alt="logo" />            
 
-            <BlogList blogs={blogs} title='Check all Blogs:' />
+            <BlogList blogs={blogs} title='Check out all the Blogs:' />
 
             <BlogList blogs={blogs.filter(blog => blog.author === 'Mario')} title="Mario's Blogs" />
 
