@@ -95,6 +95,10 @@
   color: hsl(50, 92%, 58%);
   margin-bottom: 10px;
 }
+.blog-details h1 {
+  color: hsl(50, 92%, 58%);
+  margin-bottom: 10px;
+}
 .blog-details div {
   margin: 20px 0;
 }
