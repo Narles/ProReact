@@ -4,44 +4,35 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: hsl(0, 0%, 95%);
 }
 
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  max-width: 800px;
+  margin: 5 auto;
+  border-bottom: 2px solid #f2f2f2;
 }
-
 .navbar h1 {
-  color: #f1356d;
+  color: hsl(50, 92%, 58%);
 }
-
 .navbar .links {
-  margin-left: auto;
+  margin-left: 50px auto;
 }
-
 .navbar a {
-  margin-left: 16px;
+  margin-left: 20px;
   text-decoration: none;
-  padding: 6px;
+  padding: 10px;
 }
-
 .navbar a:hover {
-  color: #f1356d;
-}
-
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  color: hsl(124, 90%, 52%);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
+  margin-top: -10px auto;
   pointer-events: none;
 }
 
@@ -62,13 +53,14 @@
 
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: rgb(40, 45, 49);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 16px;
   color: white;
+  padding: 10px;
 }
 
 .homeContent p, h2{
@@ -82,10 +74,63 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(243, 243, 246, 0.97);
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #e41754;
+  color: #f1356d;
   margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
