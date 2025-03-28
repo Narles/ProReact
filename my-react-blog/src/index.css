@@ -51,14 +51,17 @@
   }
 }
 
+.body {
+  background-color: rgb(40, 45, 49);
+}
+
 .App {
   text-align: center;
-  background-color: rgb(40, 45, 49);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   padding: 10px;
 }
@@ -71,14 +74,15 @@
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid hsl(57, 96%, 57%);
+  width: 200px;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 3px 5px #fffdfdfe;
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: hsl(50, 92%, 58%);
   margin-bottom: 8px;
 }
 .blog-preview a{
@@ -88,25 +92,32 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: hsl(50, 92%, 58%);
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: hsl(354, 100%, 46%);
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
 }
+.blog-details p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  padding: 6px 10px;
+}
 
 /* create new blog form */
 .create {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #f1356d;
   text-align: center;
 }
 .create label {
@@ -115,7 +126,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: hsl(130, 87%, 58%);
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -127,10 +138,21 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  background: hsl(130, 87%, 58%);
+  color: hsl(65, 73%, 3%);
+  border: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 18px;
+}
+.create input,
+.create textarea,
+.create select {
+    color: #a0ee68; /* Neon pink text */
+    background-color: hsl(0, 2%, 16%); /* Black background for contrast */
+    border: 2px solid hsl(98, 27%, 94%);; /* Neon pink border */
+    padding: 8px;
+    font-size: 1rem;
 }
