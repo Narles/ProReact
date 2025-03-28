@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
-  const [author, setAuthor] = useState('');
+  const [author, setAuthor] = useState('Mario');
   const history = useNavigate();
 
   const handleSubmit = (e) => {

@@ -75,7 +75,7 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid hsl(57, 96%, 57%);
-  width: 200px;
+  width: 280px;
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px #fffdfdfe;
@@ -99,8 +99,8 @@
   color: hsl(50, 92%, 58%);
   margin-bottom: 10px;
 }
-.blog-details div {
-  margin: 20px 0;
+.blog-details {
+  margin: 30px 0;
 }
 .blog-details button {
   background: hsl(354, 100%, 46%);
